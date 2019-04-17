@@ -1,4 +1,5 @@
 import Misprints from '@codexteam/misprints';
+import Reactions from '@codexteam/reactions';
 
 /**
  * @class Extensions
@@ -12,6 +13,9 @@ export default class Extensions {
     this.misprints = new Misprints({
       chatId: window.config.misprintsChatId
     });
-  }
 
+    if (document.querySelector(window.config.reactions.parent)) {
+      this.reactions = new Reactions(window.config.reactions);
+    }
+  }
 }

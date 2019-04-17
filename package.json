@@ -43,6 +43,7 @@
     "@babel/polyfill": "^7.2.5",
     "@babel/preset-env": "^7.1.0",
     "@codexteam/misprints": "^1.0.0",
+    "@codexteam/reactions": "^1.0.2",
     "@editorjs/code": "^2.4.1",
     "@editorjs/delimiter": "^1.1.0",
     "@editorjs/editorjs": "^2.12.4",
